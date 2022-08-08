@@ -1,13 +1,12 @@
 <template>
-  <div>
-    <span>AAAAAAAAAAAAAAA</span>
-    <Nuxt />
-  </div>
-
+  <Nuxt />
 </template>
 
 <script>
 export default {
-  name: "default"
+  name: "default",
+  mounted() {
+    this.$store.dispatch('products/setFromLocalStorage');
+  }
 }
 </script>

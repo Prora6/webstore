@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Milio";
+  src: url('MilioBold.woff');
+  font-weight: bold;
+  font-display: swap;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Milio";
+  src: url("MilioRegular.woff");
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Milio";
+  src: url("MilioLight.woff");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal; }
