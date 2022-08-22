@@ -1,0 +1,19 @@
+.about {
+  max-width: 1295px;
+  margin: 0 auto;
+  padding: 0 138px;
+
+  &-text {
+    font-size: 18px;
+    line-height: 24px;
+
+    &:not(:last-child){
+      margin-bottom: 16px;
+    }
+  }
+
+  .number {
+    font-weight: 800;
+    font-size: 19px;
+  }
+}

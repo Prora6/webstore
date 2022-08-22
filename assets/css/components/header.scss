@@ -1,0 +1,59 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 40px;
+  margin-bottom: 80px;
+
+  &-logo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 12px;
+    left: 96px;
+
+    .logo {
+      margin-right: 4px;
+    }
+
+    &-description {
+      display: flex;
+      flex-direction: column;
+
+      & .name {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        color: #181818;
+      }
+      & .description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #7B7B7B;
+      }
+    }
+  }
+
+  &-navigation {
+    .button.navigation {
+      text-decoration: none;
+      padding: 14px 32px;
+      font-weight: 700;
+      font-size: 17px;
+      border: none;
+      letter-spacing: 0.015em;
+      color: #2C2C2C;
+      background-color: #F3F3F3;
+    }
+    .button.navigation:hover {
+      color: white;
+      background: #2C2C2C;
+    }
+  }
+}

@@ -1,0 +1,109 @@
+.cards{
+  padding: 14px 50px;
+  position: relative;
+  .list{
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .element {
+      max-width: 380px;
+      padding: 20px;
+      background: white;
+      border-radius: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 0 10px 0 10px;
+      .element-image {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .image {
+          max-width: 200px;
+          max-height: 200px;
+        }
+      }
+      .section {
+        font-weight: bold;
+        font-size: 17px;
+        .values {
+          font-weight: normal;
+        }
+      }
+      .section:not(:last-child) {
+        padding-bottom: 8px;
+      }
+      .rating {
+        display: flex;
+        justify-content: space-between;
+      }
+      .button.element {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+      }
+      .button:hover {
+        cursor: pointer;
+        border: 1px solid #EB5A1E;
+        color: #FFFFFF;
+        background: #EB5A1E;
+      }
+    }
+    & .element:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.button {
+  padding: 8px 30px;
+  background: #FFFFFF;
+  border: 1px solid #EB5A1E;
+  border-radius: 30px;
+  color: #EB5A1E;
+  line-height: 19px;
+}
+
+@media screen and (min-width: 1800px) {
+  .cards{
+    .list{
+      .element {
+        margin: 0 45px 0 45px;
+        max-width: 400px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .cards{
+    .list{
+      .element {
+        margin: 0 45px 0 45px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .cards{
+    .list{
+      .element {
+        margin: 0 25px 0 25px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1407px) {
+  .cards{
+    .list{
+      .element {
+        margin: 0 15px 0 15px;
+      }
+    }
+  }
+}

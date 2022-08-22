@@ -1,0 +1,49 @@
+.cards .cart {
+  & .list {
+    & .list-cart {
+      margin-bottom: 20px;
+      max-width: 500px;
+      width: 100%;
+      padding: 4px;
+      border: 2px solid black;
+      border-radius: 3px;
+      list-style-type: none;
+      background: #FFFFFF;
+      & .element-image {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & .image {
+          max-width: 200px;
+          max-height: 200px;
+        }
+      }
+      & .section {
+        font-weight: bold;
+        font-size: 17px;
+        & .values {
+          font-weight: normal;
+          & .change-button {
+            border-radius: 50px;
+          }
+        }
+      }
+      & .button {
+        padding: 10px 38px;
+        background: #FFFFFF;
+        border: 1px solid #EB5A1E;
+        border-radius: 30px;
+        color: #EB5A1E;
+        line-height: 19px;
+        margin: 8px;
+      }
+      & .button:hover {
+        cursor: pointer;
+        border: 1px solid #EB5A1E;
+        color: #FFFFFF;
+        background: #EB5A1E;
+      }
+    }
+  }
+}

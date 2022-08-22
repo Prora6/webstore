@@ -59,7 +59,7 @@ export const mutations = {
   },
   DECREMENT(state, index) {
     let cart = state.cart.map(function (item, currentIndex){
-      if (index === currentIndex) {
+      if (index === currentIndex && item.quantity !== 1) {
         return {
           ...item,
           quantity: item.quantity - 1

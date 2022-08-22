@@ -1,5 +1,8 @@
 <template>
-  <Nuxt />
+  <div>
+    <HeaderStore />
+    <Nuxt />
+  </div>
 </template>
 
 <script>

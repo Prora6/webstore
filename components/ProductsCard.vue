@@ -11,7 +11,7 @@
           <p class="section">Оценок: <span class="values">{{ product_data.rating.count }}</span></p>
           <p class="section">Рейтинг: <span class="values">{{ product_data.rating.rate }}</span></p>
         </div>
-        <button class="button" @click="addToCart"> В корзину</button>
+          <button class="button element" @click="addToCart"> В корзину</button>
       </li>
 </template>
 

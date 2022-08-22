@@ -1,11 +1,5 @@
 <template>
     <div class="cards">
-      <NuxtLink to="/catalog/cart" class="transition-button">
-        Корзина
-        <span v-if="cart.length">
-          ({{cart.length}})
-        </span>
-      </NuxtLink>
       <ul class="list">
         <products-card v-for="product in products"
                        :key="product.id"
@@ -26,7 +20,6 @@ export default Vue.extend({
   computed: {
     ...mapGetters('products', {
       products: 'getProducts',
-      cart: 'getCarts'
     })
   },
   methods: {

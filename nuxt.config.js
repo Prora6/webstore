@@ -20,7 +20,12 @@ export default {
   css: [
     // SCSS file in the project
     '@/assets/css/main.scss',
-    '~/assets/fonts/milio.css'
+    '~/assets/css/pages/index.scss',
+    '~/assets/css/components/header.scss',
+    '~/assets/css/components/shoppingCart.scss',
+    '~/assets/css/components/shoppingCartItem.scss',
+    '~/assets/css/pages/about.scss',
+    '~/assets/fonts/milio.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
